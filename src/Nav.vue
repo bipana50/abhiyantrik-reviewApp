@@ -18,9 +18,8 @@ export default {
 <style lang="scss">
 #navbar{
   background-color: #C0C0C0;
-  width: 82.96875%;
+  width: 100%;
   height: 9.25925925926vh;
-  float: right;
 }
 #navbar div{
   width: fit-content;;

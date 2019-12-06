@@ -18,9 +18,9 @@ export default {
   #main-wrapper {
   background-image: url("./assets/bg.png"); 
   height: 90.68vh;
-  width: 82.96875%; 
-  background-position: center; 
-  background-repeat: no-repeat; 
+  width: 100%; 
+  //background-position: center; 
+  background-repeat: round; 
   background-size: cover;
   float: right;
 }

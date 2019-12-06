@@ -1,16 +1,14 @@
 <template>
   <div id="container">
   <sidebar></sidebar>
-  <navbar></navbar>
-  <mainWrapper></mainWrapper>
+  <sideMain></sideMain>
   </div>
 </template>
 
 <script>
 
 import sidebar from './Sidebar.vue'
-import navbar from './Nav.vue'
-import mainWrapper from './Main.vue'
+import sideMain from './SideMain.vue'
 
 
 export default {
@@ -22,8 +20,7 @@ export default {
   },
   components: {
     'sidebar' : sidebar,
-    'navbar': navbar,
-    'mainWrapper': mainWrapper
+    'sideMain': sideMain
   }
 }
 </script>
